@@ -2,7 +2,7 @@
 ---+!! !TalkContrib
 <!--
 One line description, required for extensions repository catalog.
-   * Set SHORTDESCRIPTION = Add Talk pages for Foswiki
+   * Set SHORTDESCRIPTION = Add Talk pages to Foswiki topics
 -->
 %SHORTDESCRIPTION%
 
