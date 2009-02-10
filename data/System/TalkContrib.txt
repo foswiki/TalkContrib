@@ -41,7 +41,7 @@ You can over-ride the Topic formtemplate that is used when creating a new Talk t
 
 
 
-I have tested TalkContrib using TWiki 4.2.0 with the default skin (used as a building block for other skins), ClassicSkin, PatternSkin and Foswiki:Extensions.MoveveableTypeSkin.
+TalkContrib has been tested with TWiki 4.2.0 using the default skin (used as a building block for other skins), ClassicSkin, PatternSkin and Foswiki:Extensions.MoveveableTypeSkin.
 
 ---++ Limitations
 There are 2 known limitations at this time
