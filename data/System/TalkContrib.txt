@@ -72,9 +72,8 @@ This Foswiki Application implements the first using either a SKIN or COVER setti
 |  Contrib Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
 |  Dependencies: | %$DEPENDENCIES% |
-|  Contrib Home: | http://twiki.org/cgi-bin/view/Plugins/TalkContrib |
-|  Feedback: | http://twiki.org/cgi-bin/view/Plugins/TalkContribDev |
-|  Appraisal: | http://twiki.org/cgi-bin/view/Plugins/TalkContribAppraisal |
+|  Contrib Home: | http://foswiki.org/Extensions/TalkContrib |
+|  Feedback: | http://foswiki.org/Extensions/TalkContribTalk |
 
 __Related Topics:__ [[%SYSTEMWEB%.Contribs][Contribs]], %SYSTEMWEB%.DeveloperDocumentationCategory, %SYSTEMWEB%.AdminDocumentationCategory, %SYSTEMWEB%.DefaultPreferences, %USERSWEB%.SitePreferences
 
