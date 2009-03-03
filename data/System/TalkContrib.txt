@@ -9,7 +9,7 @@ One line description, required for extensions repository catalog.
 %TOC%
 
 ---++ Usage
-<nop> TalkContrib adds a wikipedia like _Discuss_ Button to the PatternSkin edit&attach buttons, and to the topic action bar of the Classic, default and Foswiki:Extensions.MoveveableTypeSkin. 
+<nop> TalkContrib adds a Wikipedia-like _Discuss_ Button to the PatternSkin edit&attach buttons, and to the topic action bar of the default and Foswiki:Extensions.MoveveableTypeSkin. 
 
 When the user initially clicks on the 'Discuss topic' button, it will create a new topic by appending =Talk= to the original topic. 
 From then on, you can switch between the topic and its Discussion topic using that button.
@@ -18,14 +18,14 @@ From then on, you can switch between the topic and its Discussion topic using th
 ---+++ 'Talk' topics in created in the same web as the topic, with 'Talk' Suffix
 <img src="%ATTACHURLPATH%/TalkSuffix.jpg" alt="TalkSuffix.jpg" width='320' height='200' style="float:right;margin:10px;border:1px solid black;"/>
 
-To enable Talk Topics, add the =talk= skin to the SKIN path in %USERSWEB%.SitePreferences or the <nop>WebPreferences topic of whatever web you want to enable Talk topics in (eg, if you're using PatternSkin):
+To enable Talk Topics, add the =talk= skin to the =SKIN= path in [[%USERSWEB%.SitePreferences]] or the <nop>WebPreferences topic of whatever web you want to enable Talk topics in (eg, if you're using PatternSkin):
 <verbatim>
       * Set <nop>SKIN = talk,pattern
 </verbatim>
 _OR_ by setting the COVER setting to =talk= _OR_ by putting the contents of =templates/view.talk.tmpl= into a topic, and setting VIEW_TEMPLATE to reference that topic (ok, rather advanced usage)
 
 
-You can over-ride the suffix (defaults to =Talk=) that is appended to a topic to create its Talk topic by setting =TALKSUFFIX= in %USERSWEB%.SitePreferences
+You can over-ride the suffix (defaults to =Talk=) that is appended to a topic to create its Talk topic by setting =TALKSUFFIX= in [[%USERSWEB%.SitePreferences]]
 <verbatim>
       * Set <nop>TALKSUFFIX = Talk
 </verbatim>
@@ -41,7 +41,7 @@ You can over-ride the Topic formtemplate that is used when creating a new Talk t
 
 
 
-TalkContrib has been tested with TWiki 4.2.0 using the default skin (used as a building block for other skins), ClassicSkin, PatternSkin and Foswiki:Extensions.MoveveableTypeSkin.
+TalkContrib has been tested with TWiki 4.2.0 using the default skin (used as a building block for other skins), PatternSkin and Foswiki:Extensions.MoveveableTypeSkin.
 
 ---++ Limitations
 There are 2 known limitations at this time
@@ -58,7 +58,7 @@ There are many approaches to storing Talk discussions:
    4 use a formfield in the topic to store the Talk
    5 use a META:PREF in the topic to store the Talk
    
-This Foswiki Application implements the first using either a SKIN or COVER setting or using VIEW_TEMPLATE. The other modes will be examined over time.
+This Foswiki Application implements the first using either a =SKIN= or =COVER= setting or using =VIEW_TEMPLATE=. The other modes will be examined over time.
 
 ---+++ Package installation
 
